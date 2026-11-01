@@ -1,18 +1,55 @@
+* {
+
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
 header,
 main,
 footer {
-    max-width: 800px margin: 0 auton
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 header {
-    background-color: #333);
+    background-color: #333;
     color: white;
-    padding: 1em;
+    padding: .25em;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 main {
-    width: 6020px;
+    width: 400px;
     margin: 0 auto;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    margin: 2em 0;
+    background-color: #dddddd;
+    padding: 1rem;
+
+}
+
+section h2 {
+    text-align: left;
+    border-bottom: solid;
+    #000;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    padding: .25em;
+    text-align: center;
+    color: #FFF;
 
 }
