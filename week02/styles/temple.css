@@ -1,5 +1,18 @@
+header,
+main,
+footer {
+    max-width: 800px margin: 0 auton
+}
+
 header {
-    background-color: navy;
+    background-color: #333);
     color: white;
+    padding: 1em;
     text-align: center;
+}
+
+main {
+    width: 6020px;
+    margin: 0 auto;
+
 }
