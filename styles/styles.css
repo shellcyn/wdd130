@@ -32,7 +32,9 @@ aside {
 aside h2 {
     position: absolute;
     top: 40px;
-    left: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
 }
 
 aside img {
