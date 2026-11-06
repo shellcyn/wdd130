@@ -13,7 +13,77 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
 .socialmedia img {
     width: 32px;
     height: 32px;
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+
+}
+
+.hero h1 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    text-align: center;
+    font-size: 48px;
+    color: white;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 16px;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    height: auto;
+    margin-left: 12px;
+}
+
+.hero > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: var(--secondary-color);
 }
