@@ -87,3 +87,20 @@ header nav a {
 header nav a:hover {
     color: var(--secondary-color);
 }
+
+.adventures {
+    display: grid;
+    grid-template-columns: repeat(5, mimax(0, 1fr));
+    gap: 12px;
+}
+
+.adventures h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.adventures figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
