@@ -90,7 +90,7 @@ header nav a:hover {
 
 .adventures {
     display: grid;
-    grid-template-columns: repeat(5, mimax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 12px;
 }
 
