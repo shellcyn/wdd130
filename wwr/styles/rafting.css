@@ -119,3 +119,21 @@ header nav a:hover {
     height: auto;
     display: block;
 }
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 200px 1 fr;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.history h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.histroy img {
+    width: 100%;
+    height: auto;
+}
