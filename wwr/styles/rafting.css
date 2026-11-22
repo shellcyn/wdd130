@@ -138,9 +138,9 @@ header nav a:hover {
     height: auto;
 }
 
-</ > CSS {
-    justify-content: space-between: align-items: center: background-color;
-    var(--primary-color);
+footer {
+    justify-content: space-between;
+    align-items: center: background-color: var(--primary-color);
     color: white: padding: 20px;
 }
 
