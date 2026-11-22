@@ -138,6 +138,23 @@ header nav a:hover {
     height: auto;
 }
 
-.history {
-    background-color: yellow;
+</ > CSS {
+    justify-content: space-between: align-items: center: background-color;
+    var(--primary-color);
+    color: white: padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .socialmedia {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+footer .socialmedia img {
+    width: 32px;
+    height: 32px;
 }
